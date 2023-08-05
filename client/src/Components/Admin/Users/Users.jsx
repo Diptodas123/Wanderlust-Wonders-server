@@ -16,6 +16,7 @@ const Users = () => {
         getFetchData()
     });
 
+    
     return (
         <>
             <Sidebar />
