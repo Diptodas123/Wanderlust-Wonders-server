@@ -1,0 +1,482 @@
+.abouting .about-header h3 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 70px;
+}
+
+.about-footer{
+    position: absolute;
+    width: 100%;
+    top: 400%;
+}
+
+.abouting .about-insidecontent p {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    font-size: 25px;
+    color: #525252;
+    max-width: 500px;
+}
+
+.abouting {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+}
+
+.abouting .aboutinside-left {
+    /* background-color: red; */
+    height: 400px;
+    width: 50%;
+}
+
+.abouting .aboutinside-right {
+    /* background-color: blue; */
+    height: 400px;
+    width: 50%;
+}
+
+.abouting .aboutinside-left #butonforabout {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+}
+
+.view-destination {
+    color: black;
+    text-decoration: underline;
+}
+
+.scoring .scores .scorecon {
+    max-width: 250px;
+}
+
+.scoring {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    top: 640px;
+    left: 17%;
+}
+
+.scoring h1 {
+    font-size: 60px;
+}
+
+.story .story-leftarea {
+    height: 600px;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.story .story-rightarea {
+    height: 600px;
+    width: 50%;
+    /* background-color: aquamarine; */
+
+}
+
+.story {
+    position: absolute;
+    left: 45%;
+    top: 165%;
+    transform: translate(-50%, -50%);
+
+}
+
+.story .story-header h3 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 50px;
+}
+
+.story .story-leftarea .story-insidecontent p {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 20px;
+    max-width: 450px;
+}
+
+.developers {
+    position: absolute;
+    top: 230%;
+    left: 5%;
+}
+
+.developers .developer-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.developer-heading h1 {
+    position: absolute;
+    top: 230%;
+    left: 8%;
+}
+@media (width:820px){
+    .about-footer:last-child{
+        top: 2500px;
+        width: 851px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about-footer:last-child{
+        width:200%;
+        top:3000px;
+    }
+    .abouting .about-header h3 {
+        font-size: 50px;
+        left: 5px;
+    }
+
+    .abouting .about-insidecontent p {
+        font-size: 15px;
+        max-width: 220px;
+        left: 5px;
+    }
+
+    .abouting .aboutinside-right {
+        position: absolute;
+        left: 240px;
+        width: 100%;
+    }
+
+    .story {
+        top: 1400px;
+    }
+
+    .story .story-leftarea .story-insidecontent p {
+        font-size: 10px;
+        max-width: 200px;
+        left: 9%;
+    }
+
+    .story .story-rightarea {
+        position: absolute;
+        left: 260px;
+        height: 450px;
+    }
+
+    .developers {
+        top: 1600px;
+    }
+
+    .developer-heading h1 {
+        top: 1600px;
+    }
+}
+
+@media (width:768px) {
+    .about-button {
+        position: absolute;
+        top: -30px;
+    }
+    .about-footer:last-child{
+        top: 2500px;
+        width: 823px;
+    }
+
+    .scoring {
+        top: 800px;
+    }
+
+    .abouting .about-header h3 {
+        top: -200px;
+        left: -30px;
+    }
+
+    .abouting .aboutinside-left .about-insidecontent p {
+        font-size: 20px;
+        max-width: 300px;
+        top: -100px;
+        left: -20px;
+    }
+
+    .abouting .aboutinside-right {
+        position: absolute;
+        top: -195px;
+        left: 300px;
+    }
+
+    .view-destination {
+        position: absolute;
+        top: -170px;
+    }
+
+    .scoring {
+        left: 50px;
+    }
+
+    .aboutheaderimage {
+        width: 500px;
+    }
+
+    .story {
+        top: 1300px;
+    }
+
+    .story .story-rightarea {
+        position: absolute;
+        left: 450px;
+        z-index: -1;
+    }
+
+    .developer-heading h1 {
+        position: absolute;
+        top: 1700px;
+        left: 10px;
+    }
+
+    .developers {
+        top: 1700px;
+    }
+}
+
+@media (width:540px) {
+    .about-button {
+        position: absolute;
+        top: -30px;
+    }
+    .about-footer:last-child{
+        top: 3000px;
+        width: 800px;
+    }
+
+    .abouting {
+        top: 500px;
+    }
+
+    .scoring {
+        top: 800px;
+    }
+
+    .abouting .about-header h3 {
+        top: -200px;
+        left: -0px;
+        font-size: 50px;
+    }
+
+    .abouting .aboutinside-left .about-insidecontent p {
+        font-size: 20px;
+        max-width: 290px;
+        top: -100px;
+        left: 6px;
+    }
+
+    .abouting .aboutinside-right {
+        position: absolute;
+        top: -195px;
+        left: 300px;
+    }
+
+    .view-destination {
+        position: absolute;
+        top: -170px;
+    }
+
+    .scoring {
+        left: 50px;
+        top: 600px;
+    }
+
+    .aboutheaderimage {
+        width: 500px;
+    }
+
+    .story {
+        top: 1300px;
+        left: 280px;
+    }
+
+    .story .story-rightarea {
+        position: absolute;
+        left: 450px;
+        z-index: -1;
+
+    }
+
+    .developer-heading h1 {
+        position: absolute;
+        top: 1700px;
+        left: 10px;
+    }
+
+    .developers {
+        top: 1700px;
+    }
+}
+
+@media (width:912px) {
+    .about-button {
+        position: absolute;
+        top: -30px;
+    }
+    .about-footer:last-child{
+        top: 2500px;
+    }
+
+    .scoring {
+        top: 800px;
+    }
+
+    .abouting .about-header h3 {
+        top: -200px;
+        left: -30px;
+    }
+
+    .abouting .aboutinside-left .about-insidecontent p {
+        font-size: 20px;
+        max-width: 300px;
+        top: -100px;
+        left: -20px;
+    }
+
+    .abouting .aboutinside-right {
+        position: absolute;
+        top: -195px;
+        left: 300px;
+    }
+
+    .view-destination {
+        position: absolute;
+        top: -170px;
+    }
+
+    .scoring {
+        left: 50px;
+    }
+
+    .aboutheaderimage {
+        width: 500px;
+    }
+
+    .story {
+        top: 1300px;
+    }
+
+    .story .story-rightarea {
+        position: absolute;
+        left: 450px;
+        z-index: -1;
+    }
+
+    .developer-heading h1 {
+        position: absolute;
+        top: 1700px;
+        left: 10px;
+    }
+
+    .developers {
+        top: 1700px;
+    }
+}
+
+@media (width:820px) {
+    .about-button {
+        position: absolute;
+        top: -30px;
+    }
+
+    .scoring {
+        top: 800px;
+    }
+
+    .abouting .about-header h3 {
+        top: -200px;
+        left: -30px;
+    }
+
+    .abouting .aboutinside-left .about-insidecontent p {
+        font-size: 20px;
+        max-width: 300px;
+        top: -100px;
+        left: -20px;
+    }
+
+    .abouting .aboutinside-right {
+        position: absolute;
+        top: -195px;
+        left: 300px;
+    }
+
+    .view-destination {
+        position: absolute;
+        top: -170px;
+    }
+
+    .scoring {
+        left: 50px;
+    }
+
+    .aboutheaderimage {
+        width: 500px;
+    }
+
+    .story {
+        top: 1300px;
+    }
+
+    .story .story-rightarea {
+        position: absolute;
+        left: 450px;
+        z-index: -1;
+
+    }
+
+    .developer-heading h1 {
+        position: absolute;
+        top: 1700px;
+        left: 10px;
+    }
+
+    .developers {
+        top: 1700px;
+    }
+}
+
+@media (width:1024px) {
+    .abouting .aboutinside-left .about-insidecontent p {
+        left: -25px;
+    }
+    .about-footer:last-child{
+       width: max-content;
+    }
+
+    .abouting .about-header h3 {
+        left: -20px;
+    }
+
+    .scoring {
+        left: 50px;
+        top: 580px;
+    }
+
+    .story {
+        top: 1100px;
+        left: 500px;
+    }
+
+    .developer-heading h1 {
+        top: 1450px;
+    }
+
+    .developers {
+        top: 1450px;
+    }
+}
+
+@media (width:1280px){
+    .about-footer:last-child{
+        top: 2500px;
+        width: max-content;
+    }
+}

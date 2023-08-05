@@ -1,0 +1,57 @@
+.dash-box {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+}
+
+.dash-box .dash-box-circle {
+    background-color: #71b2f8;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    border-radius: 50% 10px 10px 50%;
+    right: 0;
+}
+
+.dash-box .dash-box-circle i {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+.middle-conatiner {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.middle-conatiner .left-box {
+    background-color: rgb(255, 255, 255);
+    height: 370px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    flex: 1;
+}
+.left-box .desc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle-conatiner .p-bar {
+    height: 100px;
+    width: 100px;
+}
+
+.middle-conatiner .right-box {
+    background-color: rgb(255, 255, 255);
+    height: 370px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    flex: 2;
+}

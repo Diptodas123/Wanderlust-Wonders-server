@@ -1,0 +1,43 @@
+.admin-login {
+    height: 100vh;
+    position: relative;
+    background-image: url("../../../../public/img/admin_login-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.admin-login .log-in-title {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.admin-login .login-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(224, 222, 222);
+}
+.login-box .admin-login-form{
+    padding: 20px 20px 50px 20px;
+}
+.login-box .admin-login-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: inherit;
+    outline: none;
+}
+.eye-symbol{
+    position: absolute;
+    top: 240px;
+    right: 60px;
+}

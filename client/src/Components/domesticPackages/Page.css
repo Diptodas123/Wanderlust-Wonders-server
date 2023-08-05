@@ -1,0 +1,66 @@
+.heading_Page h1 {
+    background-color: rgb(184, 238, 227);
+    margin-top: 90px;
+    padding-left: 50px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.heading h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.images img {
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.box {
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(210, 220, 224);
+    border-radius: 5px;
+    outline: 2px solid skyblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .box {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
+
+.package h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box .box1 {
+    background-color: rgb(228, 198, 198);
+    height: 50px;
+}
+
+.box h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.bt button {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+@media(max-width:30px) {
+    .bt button {
+        margin-left: 775px;
+    }
+}
