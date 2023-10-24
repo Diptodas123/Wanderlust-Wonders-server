@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.use('/', Routes);
-app.use('/uploads', express.static('upload'));
+app.use('/uploads', express.static('uploads'));
 
 const PORT = process.env.PORT || 8000;
 const username = process.env.DB_USERNAME;
